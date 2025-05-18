@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quer sair comigo?</title>
+    <style>
+        body {
+            background-color: #8E44AD;
+            /** background-color: #E55656; **/
+            overflow: hidden;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .img {
+            display: flex;
+            background-image: url('https://github.com/iuripedroso/Valentine-sDay/blob/main/fundo%20domenique%2001.png?raw=true');
+            background-color: #fff;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 360px;
+            width: 360px;
+            margin-bottom: 50px;
+            transition: 0.3s all;
+            box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        #sim {
+            color: rgb(174, 215, 248);
+            background-color: #16324d;
+        }
+
+        #nao {
+            color: rgb(174, 215, 248);
+            background-color: #16324d;
+        }
+
+        button {
+            margin: 0 20px;
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #D2B4DE;
+        }
+
+        button:focus,
+        button:active {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="center">
+        <div class="img"></div>
+        <div class="btn">
+            <button id="sim"><a href="https://wa.me/5542999316819?text=sim%20gatinho%2C%20eu%20aceito%20ir%20em%20um%20encontro%20com%20vc%20%F0%9F%98%98%F0%9F%A5%B0
+                ">sim</a></button>
+            <button id="nao">não</button>
+        </div>
+    </div>
+
+    <script>
+        const naoBtn = document.querySelector('#nao');
+        const simBtn = document.querySelector('#sim');
+        const img = document.querySelector('.img');
+
+        simBtn.addEventListener('mouseover', () => {
+            img.style.backgroundImage = "url('https://github.com/iuripedroso/Valentine-sDay/blob/main/fundo.png?raw=true')";
+        });
+
+        simBtn.addEventListener('mouseout', () => {
+            img.style.backgroundImage = "url('https://github.com/iuripedroso/Valentine-sDay/blob/main/fundo%20domenique%2001.png?raw=true')";
+        });
+
+        naoBtn.addEventListener('mouseover', () => {
+            naoBtn.style.position = 'absolute';
+            naoBtn.style.left = Math.floor(Math.random() * (window.innerWidth - naoBtn.offsetWidth)) + "px";
+            naoBtn.style.top = Math.floor(Math.random() * (window.innerHeight - naoBtn.offsetHeight)) + "px";
+        });
+    </script>
+
+</body>
+
+</html>
