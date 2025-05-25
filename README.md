@@ -27,15 +27,6 @@ Você tem duas opções:
 - **Imagens em pixel art** carregadas diretamente do GitHub  
 - **Mensagem centralizada com design responsivo**
 
-## 📁 Estrutura do Projeto
-
-Love/
-│
-├── index.html # Página principal com toda a lógica e estilo embutido
-└── imgs/
-├── img final - 1.png # Imagem inicial (personagem com fundo)
-└── img final - 2.png # Imagem ao passar o mouse no botão "sim"
-
 
 ## 📱 Link de Contato
 
