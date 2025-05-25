@@ -35,10 +35,11 @@ Clicando em **"sim"**, a página redireciona para:
 
 ---
 
-<div style="display: flex; align-items: center; justify-content: center; height: 300">
+<div style="display: flex; align-items: center; justify-content: center; height: 300px; gap: 20px;">
   <img src="https://github.com/iuripedroso/Dear_Domenique/blob/main/imgs/img%20final%20domi%20-%201.png?raw=true" alt="Imagem do projeto" width="30%" />
-  <img src="https://github.com/iuripedroso/Dear_Domenique/blob/main/imgs/img%20final%20domi%20-%202.png?raw=true" alt="Imagem do projeto 2" widht="30%" />
+  <img src="https://github.com/iuripedroso/Dear_Domenique/blob/main/imgs/img%20final%20domi%20-%202.png?raw=true" alt="Imagem do projeto 2" width="30%" />
 </div>
+
 
 
 
