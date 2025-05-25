@@ -35,8 +35,9 @@ Clicando em **"sim"**, a página redireciona para:
 
 ---
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; justify-content: center">
   <img src="https://github.com/iuripedroso/Dear_Domenique/blob/main/imgs/img%20final%20domi%20-%201.png?raw=true" alt="Imagem do projeto" width="300" />
+  <img src="https://github.com/iuripedroso/Dear_Domenique/blob/main/imgs/img%20final%20domi%20-%202.png?raw=true" alt="Imagem do projeto 2" widht="300" />
 </div>
 
 
